@@ -40,7 +40,6 @@ public class BulletPoolManager : MonoBehaviour
     public void ResetBullet(GameObject bullet)
     {
         bullet.SetActive(false);
-        bulletList.Enqueue(bullet); ;
     }
 }
 
